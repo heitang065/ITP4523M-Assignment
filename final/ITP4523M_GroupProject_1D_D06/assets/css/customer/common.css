@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+input , button{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.section-height{
+    height: calc(100vh - 60px);
+}
+
+.avatar{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

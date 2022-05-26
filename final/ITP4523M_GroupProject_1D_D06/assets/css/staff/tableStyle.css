@@ -1,0 +1,60 @@
+table {
+    width: calc(100% - 40px);
+    border-collapse: collapse;
+    font-size: 14px;
+    margin: 30px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px #9b9b9b;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #6ee7b7;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid #9b9b9b;
+}
+
+td {
+    margin-top: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #d7fced;
+}
+
+td input[type=button] {
+    width: 80px;
+    height: 25px;
+    font-family: cursive;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px #000;
+    margin: 0 10px;
+}
+
+.delete {
+    color: #ff0000;
+}
+
+.update {
+    color: #008000;
+}
+
+.status {
+    width: 230px;
+    height: auto;
+    border-radius: 20px;
+    background: #D1FAE5;
+    color: #116146;
+    font-weight: bold;
+}
